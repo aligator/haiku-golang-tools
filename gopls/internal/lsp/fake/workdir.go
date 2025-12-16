@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/tools/gopls/internal/lsp/protocol"
 	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/robustio"
+	"github.com/aligator/haiku-golang-tools/internal/robustio"
 )
 
 // RelativeTo is a helper for operations relative to a given directory.

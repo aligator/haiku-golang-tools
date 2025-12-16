@@ -14,7 +14,7 @@ import (
 	"golang.org/x/tools/internal/event"
 	"golang.org/x/tools/internal/gocommand"
 	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/robustio"
+	"github.com/aligator/haiku-golang-tools/internal/robustio"
 )
 
 // New Creates a new cache for gopls operation results, using the given file

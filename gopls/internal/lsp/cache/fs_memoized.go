@@ -14,7 +14,7 @@ import (
 	"golang.org/x/tools/gopls/internal/span"
 	"golang.org/x/tools/internal/event"
 	"golang.org/x/tools/internal/event/tag"
-	"golang.org/x/tools/internal/robustio"
+	"github.com/aligator/haiku-golang-tools/internal/robustio"
 )
 
 // A memoizedFS is a file source that memoizes reads, to reduce IO.
