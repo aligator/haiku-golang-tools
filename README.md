@@ -15,5 +15,5 @@ For further documentation refer to the official documentation.
 Basically all from https://go.dev/gopls/ applies except that you need to install it using
 
 ```bash
-go install github.com/aligator/haiku-golang-tools/gopls@v0.14.2
+go install github.com/aligator/haiku-golang-tools/gopls@v0.14.1
 ```
