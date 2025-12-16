@@ -7,7 +7,7 @@ package modfile
 import (
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
 )
 
 // This test replaces an older, problematic test (golang/go#57784). But it has

@@ -12,17 +12,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/source/typerefs"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/gopls/internal/vulncheck"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/persistent"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source/typerefs"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/gocommand"
+	"github.com/aligator/haiku-golang-tools/internal/imports"
+	"github.com/aligator/haiku-golang-tools/internal/memoize"
+	"github.com/aligator/haiku-golang-tools/internal/persistent"
+	"github.com/aligator/haiku-golang-tools/internal/xcontext"
 )
 
 type Session struct {

@@ -12,8 +12,8 @@ import (
 	"go/token"
 	"strings"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
 )
 
 // information needed for completion

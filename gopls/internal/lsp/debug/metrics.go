@@ -5,9 +5,9 @@
 package debug
 
 import (
-	"golang.org/x/tools/internal/event/export/metric"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/event/tag"
+	"github.com/aligator/haiku-golang-tools/internal/event/export/metric"
+	"github.com/aligator/haiku-golang-tools/internal/event/label"
+	"github.com/aligator/haiku-golang-tools/internal/event/tag"
 )
 
 var (

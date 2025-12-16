@@ -17,7 +17,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 // TODO(hyangah): use analysisutil.MustExtractDoc.

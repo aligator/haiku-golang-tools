@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/tokeninternal"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/internal/memoize"
+	"github.com/aligator/haiku-golang-tools/internal/tokeninternal"
 )
 
 // This file contains an implementation of an LRU parse cache, that offsets the

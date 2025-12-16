@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
 )
 
 func TestParseErrorMessage(t *testing.T) {

@@ -16,12 +16,12 @@ import (
 	"strings"
 	"text/scanner"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/diff"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/tokeninternal"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/internal/diff"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/imports"
+	"github.com/aligator/haiku-golang-tools/internal/tokeninternal"
 )
 
 // Format formats a file with a given range.

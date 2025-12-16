@@ -11,10 +11,10 @@ import (
 	"regexp"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp"
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
 )
 
 // Test that gopls prompts for telemetry only when it is supposed to.

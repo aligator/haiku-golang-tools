@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/source/typerefs"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/cache"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source/typerefs"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 // TestRefs checks that the analysis reports, for each exported member

@@ -19,15 +19,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/tag"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/cache"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/debug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/event/tag"
+	"github.com/aligator/haiku-golang-tools/internal/jsonrpc2"
 )
 
 // Unique identifiers for client/server.

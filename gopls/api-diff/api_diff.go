@@ -18,7 +18,7 @@ import (
 	"os/exec"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
 )
 
 const usage = `api-diff <previous version> [<current version>]
@@ -70,7 +70,7 @@ func diffAPI(oldVer, newVer string) (string, error) {
 }
 
 func loadAPI(ctx context.Context, version string) (*source.APIJSON, error) {
-	ver := fmt.Sprintf("golang.org/x/tools/gopls@%s", version)
+	ver := fmt.Sprintf("github.com/aligator/haiku-golang-tools/gopls@%s", version)
 	cmd := exec.Command("go", "run", ver, "api-json")
 
 	stdout := &bytes.Buffer{}

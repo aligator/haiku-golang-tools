@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/hooks"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/fake"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

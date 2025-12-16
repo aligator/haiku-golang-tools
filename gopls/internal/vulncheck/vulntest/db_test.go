@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/gopls/internal/vulncheck/osv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/osv"
 )
 
 var update = flag.Bool("update", false, "update golden files in testdata/")

@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/memoize"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/gocommand"
+	"github.com/aligator/haiku-golang-tools/internal/memoize"
 	"github.com/aligator/haiku-golang-tools/internal/robustio"
 )
 

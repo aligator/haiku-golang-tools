@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/telemetry"
-	"golang.org/x/tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/telemetry"
+	"github.com/aligator/haiku-golang-tools/internal/event"
 )
 
 // promptTimeout is the amount of time we wait for an ongoing prompt before

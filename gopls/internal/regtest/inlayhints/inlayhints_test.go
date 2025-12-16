@@ -6,10 +6,10 @@ package inlayhint
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/hooks"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/hooks"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
 )
 
 func TestMain(m *testing.M) {

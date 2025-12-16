@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/gopls/internal/vulncheck/osv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/osv"
 	"gopkg.in/yaml.v3"
 )
 

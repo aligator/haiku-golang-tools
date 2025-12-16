@@ -153,7 +153,7 @@ Args:
 Result:
 
 ```
-map[golang.org/x/tools/gopls/internal/lsp/protocol.DocumentURI]*golang.org/x/tools/gopls/internal/vulncheck.Result
+map[github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol.DocumentURI]*github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck.Result
 ```
 
 ### **Toggle gc_details**

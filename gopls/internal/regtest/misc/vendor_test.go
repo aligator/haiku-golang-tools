@@ -7,9 +7,9 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
 )
 
 const basicProxy = `

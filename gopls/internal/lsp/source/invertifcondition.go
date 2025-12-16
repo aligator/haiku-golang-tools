@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 // invertIfCondition is a singleFileFixFunc that inverts an if/else statement

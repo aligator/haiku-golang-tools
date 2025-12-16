@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	. "golang.org/x/tools/gopls/internal/lsp/lsprpc"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/lsprpc"
+	jsonrpc2_v2 "github.com/aligator/haiku-golang-tools/internal/jsonrpc2_v2"
 )
 
 var noopBinder = BinderFunc(func(context.Context, *jsonrpc2_v2.Connection) jsonrpc2_v2.ConnectionOptions {

@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"path"
 
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/fake"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/internal/xcontext"
 )
 
 // RemoveWorkspaceFile deletes a file on disk but does nothing in the

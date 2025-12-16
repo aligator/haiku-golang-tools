@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/tests/compare"
 )
 
 // Test for golang/go#57081.

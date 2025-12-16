@@ -5,8 +5,8 @@
 package regtest
 
 import (
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/fake"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
 )
 
 type runConfig struct {

@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/edit"
+	"github.com/aligator/haiku-golang-tools/internal/edit"
 )
 
 func main() {

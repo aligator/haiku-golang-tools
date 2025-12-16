@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

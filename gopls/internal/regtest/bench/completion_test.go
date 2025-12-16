@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/fake"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
 )
 
 // TODO(rfindley): update these completion tests to run on multiple repos.

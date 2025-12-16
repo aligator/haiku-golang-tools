@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
 )
 
 // FoldingRangeInfo holds range and kind info of folding for an ast.Node

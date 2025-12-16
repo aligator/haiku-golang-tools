@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/gopls/internal/vulncheck/osv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/osv"
 	"golang.org/x/tools/txtar"
 )
 

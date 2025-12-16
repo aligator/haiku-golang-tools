@@ -12,13 +12,13 @@ import (
 	"go/types"
 
 	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/lsp/analysis/embeddirective"
-	"golang.org/x/tools/gopls/internal/lsp/analysis/fillstruct"
-	"golang.org/x/tools/gopls/internal/lsp/analysis/undeclaredname"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/imports"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/analysis/embeddirective"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/analysis/fillstruct"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/analysis/undeclaredname"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/internal/imports"
 )
 
 type (

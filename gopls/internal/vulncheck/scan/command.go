@@ -22,11 +22,11 @@ import (
 	"golang.org/x/mod/semver"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/vulncheck"
-	"golang.org/x/tools/gopls/internal/vulncheck/govulncheck"
-	"golang.org/x/tools/gopls/internal/vulncheck/osv"
-	isem "golang.org/x/tools/gopls/internal/vulncheck/semver"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/govulncheck"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/osv"
+	isem "github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/semver"
 	"golang.org/x/vuln/scan"
 )
 

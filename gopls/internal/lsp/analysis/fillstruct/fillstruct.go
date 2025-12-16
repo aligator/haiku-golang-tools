@@ -26,10 +26,10 @@ import (
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/fuzzy"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/internal/analysisinternal"
+	"github.com/aligator/haiku-golang-tools/internal/fuzzy"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 const Doc = `note incomplete struct initializations

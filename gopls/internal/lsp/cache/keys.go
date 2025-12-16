@@ -7,7 +7,7 @@ package cache
 import (
 	"io"
 
-	"golang.org/x/tools/internal/event/label"
+	"github.com/aligator/haiku-golang-tools/internal/event/label"
 )
 
 var (

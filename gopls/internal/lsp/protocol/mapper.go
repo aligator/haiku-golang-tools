@@ -72,9 +72,9 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
 )
 
 // A Mapper wraps the content of a file and provides mapping

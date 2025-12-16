@@ -18,9 +18,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/fuzzy"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/aligator/haiku-golang-tools/internal/analysisinternal"
+	"github.com/aligator/haiku-golang-tools/internal/fuzzy"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 const Doc = `suggest fixes for errors due to an incorrect number of return values

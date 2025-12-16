@@ -43,7 +43,7 @@ import (
 	"unicode"
 
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
 	"golang.org/x/tools/refactor/satisfy"
 )
 

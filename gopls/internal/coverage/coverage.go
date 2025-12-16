@@ -64,7 +64,7 @@ func main() {
 	tests = realTestName(tests)
 
 	// report coverage for packages under internal/lsp
-	parg := "golang.org/x/tools/gopls/internal/lsp/..."
+	parg := "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/..."
 
 	accum := []string{}
 	seen := make(map[string]bool)

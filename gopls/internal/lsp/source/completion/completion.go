@@ -27,16 +27,16 @@ import (
 
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/tools/go/ast/astutil"
-	goplsastutil "golang.org/x/tools/gopls/internal/astutil"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/gopls/internal/lsp/snippet"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/fuzzy"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/typeparams"
+	goplsastutil "github.com/aligator/haiku-golang-tools/gopls/internal/astutil"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/snippet"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/fuzzy"
+	"github.com/aligator/haiku-golang-tools/internal/imports"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 // A CompletionItem represents a possible completion suggested by the algorithm.

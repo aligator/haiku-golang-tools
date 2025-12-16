@@ -13,7 +13,7 @@ import (
 	"golang.org/x/telemetry"
 	"golang.org/x/telemetry/counter"
 	"golang.org/x/telemetry/upload"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
 )
 
 // Mode calls x/telemetry.Mode.

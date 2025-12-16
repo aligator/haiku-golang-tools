@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/lsp/command/gen"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command/gen"
 )
 
 func main() {

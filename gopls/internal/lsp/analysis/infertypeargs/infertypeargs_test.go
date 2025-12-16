@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/gopls/internal/lsp/analysis/infertypeargs"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/analysis/infertypeargs"
+	"github.com/aligator/haiku-golang-tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

@@ -7,9 +7,9 @@ package cache
 import (
 	"path/filepath"
 
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/persistent"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/internal/persistent"
 )
 
 // A fileMap maps files in the snapshot, with some additional bookkeeping:

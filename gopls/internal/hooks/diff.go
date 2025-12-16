@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/internal/diff"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/internal/diff"
 )
 
 // structure for saving information about diffs

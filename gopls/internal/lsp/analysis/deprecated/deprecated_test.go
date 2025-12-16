@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func Test(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/internal/diff/difftest"
+	"github.com/aligator/haiku-golang-tools/internal/diff/difftest"
 )
 
 func TestDiff(t *testing.T) {

@@ -6,7 +6,7 @@ package bench
 import (
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
 )
 
 // BenchmarkReload benchmarks reloading a file metadata after a change to an import.

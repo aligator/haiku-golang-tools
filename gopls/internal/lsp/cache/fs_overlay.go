@@ -8,8 +8,8 @@ import (
 	"context"
 	"sync"
 
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
 )
 
 // An overlayFS is a source.FileSource that keeps track of overlays on top of a

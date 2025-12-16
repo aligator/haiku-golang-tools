@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func TestLicenses(t *testing.T) {

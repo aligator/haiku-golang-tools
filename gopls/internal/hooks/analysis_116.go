@@ -7,7 +7,7 @@
 
 package hooks
 
-import "golang.org/x/tools/gopls/internal/lsp/source"
+import "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
 
 func updateAnalyzers(options *source.Options) {
 	options.StaticcheckSupported = false

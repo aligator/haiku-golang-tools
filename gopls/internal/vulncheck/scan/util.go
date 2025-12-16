@@ -9,8 +9,8 @@ package scan
 
 import (
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/gopls/internal/vulncheck/osv"
-	isem "golang.org/x/tools/gopls/internal/vulncheck/semver"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/osv"
+	isem "github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/semver"
 )
 
 // LatestFixed returns the latest fixed version in the list of affected ranges,

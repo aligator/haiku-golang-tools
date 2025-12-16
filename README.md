@@ -3,7 +3,7 @@
 This is a fork of `golang.org/x/tools` to make some tools compatible 
 with the Go 1.18 shipped with Haiku OS repositories.
 
-Currently it contains only [`golang.org/x/tools/gopls`](https://pkg.go.dev/golang.org/x/tools/gopls).
+Currently it contains only [`github.com/aligator/haiku-golang-tools/gopls`](https://pkg.go.dev/github.com/aligator/haiku-golang-tools/gopls).
 
 If something other of `golang.org/x/tools` needs to be made compatible with Haiku, 
 please open an issue and I may look into it.

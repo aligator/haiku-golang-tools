@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/event/tag"
+	"github.com/aligator/haiku-golang-tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/internal/event/label"
+	"github.com/aligator/haiku-golang-tools/internal/event/tag"
 )
 
 // Level parameterizes log severity.

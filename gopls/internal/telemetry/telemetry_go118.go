@@ -7,7 +7,7 @@
 
 package telemetry
 
-import "golang.org/x/tools/gopls/internal/lsp/protocol"
+import "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
 
 func Mode() string {
 	return "local"

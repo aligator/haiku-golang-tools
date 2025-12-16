@@ -16,15 +16,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
-	"golang.org/x/tools/gopls/internal/vulncheck"
-	"golang.org/x/tools/gopls/internal/vulncheck/scan"
-	"golang.org/x/tools/gopls/internal/vulncheck/vulntest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	. "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/regtest"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/tests/compare"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/scan"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/vulntest"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func TestRunGovulncheckError(t *testing.T) {

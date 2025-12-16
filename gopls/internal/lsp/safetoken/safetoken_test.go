@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 )
 
 func TestWorkaroundIssue57490(t *testing.T) {
@@ -85,7 +85,7 @@ func TestGoplsSourceDoesNotCallTokenFileMethods(t *testing.T) {
 		"GOFLAGS=-mod=mod",
 	)
 
-	pkgs, err := packages.Load(cfg, "go/token", "golang.org/x/tools/gopls/...")
+	pkgs, err := packages.Load(cfg, "go/token", "github.com/aligator/haiku-golang-tools/gopls/...")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -117,7 +117,7 @@ func TestGoplsSourceDoesNotCallTokenFileMethods(t *testing.T) {
 
 	for _, pkg := range pkgs {
 		switch pkg.PkgPath {
-		case "go/token", "golang.org/x/tools/gopls/internal/lsp/safetoken":
+		case "go/token", "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken":
 			continue // allow calls within these packages
 		}
 

@@ -9,7 +9,7 @@
 //
 // See https://github.com/golang/tools/blob/master/gopls/README.md
 // for the most up-to-date documentation.
-package main // import "golang.org/x/tools/gopls"
+package main // import "github.com/aligator/haiku-golang-tools/gopls"
 
 //go:generate go run doc/generate.go
 
@@ -17,10 +17,10 @@ import (
 	"context"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/gopls/internal/telemetry"
-	"golang.org/x/tools/internal/tool"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/hooks"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/cmd"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/telemetry"
+	"github.com/aligator/haiku-golang-tools/internal/tool"
 )
 
 func main() {

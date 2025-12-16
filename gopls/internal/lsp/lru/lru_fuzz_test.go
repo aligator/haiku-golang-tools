@@ -10,7 +10,7 @@ package lru_test
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/lru"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/lru"
 )
 
 // Simple fuzzing test for consistency.

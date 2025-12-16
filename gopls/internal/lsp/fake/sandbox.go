@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/aligator/haiku-golang-tools/internal/gocommand"
 	"github.com/aligator/haiku-golang-tools/internal/robustio"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
 	"golang.org/x/tools/txtar"
 )
 

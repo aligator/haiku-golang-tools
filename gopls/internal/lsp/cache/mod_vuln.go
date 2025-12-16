@@ -7,10 +7,10 @@ package cache
 import (
 	"context"
 
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/gopls/internal/vulncheck"
-	"golang.org/x/tools/gopls/internal/vulncheck/scan"
-	"golang.org/x/tools/internal/memoize"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/span"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/vulncheck/scan"
+	"github.com/aligator/haiku-golang-tools/internal/memoize"
 )
 
 // ModVuln returns import vulnerability analysis for the given go.mod URI.

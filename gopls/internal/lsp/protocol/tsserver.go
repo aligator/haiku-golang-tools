@@ -14,7 +14,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/aligator/haiku-golang-tools/internal/jsonrpc2"
 )
 
 type Server interface {

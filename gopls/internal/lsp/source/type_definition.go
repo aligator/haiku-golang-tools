@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"go/token"
 
-	"golang.org/x/tools/gopls/internal/bug"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/event"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/bug"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/internal/event"
 )
 
 // TypeDefinition handles the textDocument/typeDefinition request for Go files.

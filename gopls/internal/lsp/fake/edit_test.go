@@ -7,7 +7,7 @@ package fake
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol"
 )
 
 func TestApplyEdits(t *testing.T) {

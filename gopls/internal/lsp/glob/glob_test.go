@@ -7,7 +7,7 @@ package glob_test
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/glob"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/glob"
 )
 
 func TestParseErrors(t *testing.T) {

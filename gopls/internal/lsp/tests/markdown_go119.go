@@ -8,7 +8,7 @@
 package tests
 
 import (
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/tests/compare"
 )
 
 // DiffMarkdown compares two markdown strings produced by parsing go doc

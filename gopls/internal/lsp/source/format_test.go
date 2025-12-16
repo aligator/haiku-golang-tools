@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/tests/compare"
 )
 
 func TestImportPrefix(t *testing.T) {

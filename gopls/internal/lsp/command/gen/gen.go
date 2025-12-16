@@ -12,8 +12,8 @@ import (
 	"go/types"
 	"text/template"
 
-	"golang.org/x/tools/gopls/internal/lsp/command/commandmeta"
-	"golang.org/x/tools/internal/imports"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command/commandmeta"
+	"github.com/aligator/haiku-golang-tools/internal/imports"
 )
 
 const src = `// Copyright 2021 The Go Authors. All rights reserved.
@@ -109,10 +109,10 @@ func Generate() ([]byte, error) {
 		Imports: map[string]bool{
 			"context": true,
 			"fmt":     true,
-			"golang.org/x/tools/gopls/internal/lsp/protocol": true,
+			"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/protocol": true,
 		},
 	}
-	const thispkg = "golang.org/x/tools/gopls/internal/lsp/command"
+	const thispkg = "github.com/aligator/haiku-golang-tools/gopls/internal/lsp/command"
 	for _, c := range d.Commands {
 		for _, arg := range c.Args {
 			pth := pkgPath(arg.Type)

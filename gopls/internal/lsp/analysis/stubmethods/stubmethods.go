@@ -16,8 +16,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/aligator/haiku-golang-tools/internal/analysisinternal"
+	"github.com/aligator/haiku-golang-tools/internal/typesinternal"
 )
 
 const Doc = `stub methods analyzer

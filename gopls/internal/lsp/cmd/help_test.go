@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/cmd"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/internal/tool"
 )
 
 //go:generate go test -run Help -update-help-files

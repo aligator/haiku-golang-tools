@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/cmd"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/source"
+	"github.com/aligator/haiku-golang-tools/internal/gocommand"
+	"github.com/aligator/haiku-golang-tools/internal/memoize"
+	"github.com/aligator/haiku-golang-tools/internal/testenv"
+	"github.com/aligator/haiku-golang-tools/internal/tool"
 )
 
 var (

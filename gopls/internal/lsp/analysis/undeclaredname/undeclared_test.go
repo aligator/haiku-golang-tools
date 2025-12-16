@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/gopls/internal/lsp/analysis/undeclaredname"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/analysis/undeclaredname"
 )
 
 func Test(t *testing.T) {

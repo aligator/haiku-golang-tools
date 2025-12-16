@@ -10,7 +10,7 @@ import (
 	"go/scanner"
 	"go/token"
 
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/safetoken"
 )
 
 // PurgeFuncBodies returns a copy of src in which the contents of each

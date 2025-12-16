@@ -14,7 +14,7 @@ import (
 	"testing"
 
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/gopls/internal/lsp/lru"
+	"github.com/aligator/haiku-golang-tools/gopls/internal/lsp/lru"
 )
 
 func TestCache(t *testing.T) {
