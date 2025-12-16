@@ -22,5 +22,5 @@ func getFileID(filename string) (FileID, time.Time, error) {
 	return FileID{
 		device: uint64(stat.Dev), // (int32 on darwin, uint64 on linux)
 		inode:  uint64(stat.Ino), // (int64 on haiku)
-	}, fi.ModTime(), niluint64
+	}, fi.ModTime(), nil
 }
